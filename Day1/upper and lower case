@@ -1,0 +1,5 @@
+s="welcome to saveetha university"
+print(s.upper(), s.lower(), len(s.split(" ")), len([x for x in s.split(" ") if x[0].lower()=="a"]))
+
+OUTPUT:
+WELCOME TO SAVEETHA UNIVERSITY welcome to saveetha university 4 0
