@@ -1,0 +1,6 @@
+from math import sqrt
+num=15
+print(sqrt(num)*sqrt(num)==num)
+
+OUTPUT:
+False
