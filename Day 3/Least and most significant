@@ -1,0 +1,10 @@
+num=123543
+least_significant_digit=num%10
+most_significant_digit=int(str(num)[0])
+print("least significant digit:",least_significant_digit)
+print("most significant digit:",most_significant_digit)
+
+OUTPUT:
+least significant digit: 3
+most significant digit: 1
+
