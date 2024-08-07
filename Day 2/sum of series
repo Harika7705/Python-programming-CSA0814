@@ -1,0 +1,7 @@
+number=5
+total=0
+total=(number*(number+1)*(2*number+1))/6
+print("The sum of series upto {0}={1}".format(number,total))
+
+OUTPUT:
+The sum of series upto 5=55.0
