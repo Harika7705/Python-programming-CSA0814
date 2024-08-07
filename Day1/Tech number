@@ -1,0 +1,17 @@
+num = 3025
+num_str = str(num)
+length = len(num_str)
+
+if length % 2 == 0:
+    mid = length // 2
+    left = int(num_str[:mid])
+    right = int(num_str[mid:])
+    if (left + right) ** 0.5 % 1 == 0:
+        print("Tech number")
+    else:
+        print("Not a Tech number")
+else:
+    print("Not a Tech number")
+
+OUTPUT:
+Not a Tech number
