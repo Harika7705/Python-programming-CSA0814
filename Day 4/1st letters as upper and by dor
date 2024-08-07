@@ -1,0 +1,7 @@
+sentence=("saveetha university chennai")
+words=sentence.split()
+s=[word[0].upper()for word in words]
+result='.'.join(s)
+print(result)
+
+OUTPUT:   S.U.C
