@@ -1,11 +1,9 @@
-start,end=10,30
-for num in range(start,end+1):
-if num>1:
-        for i in range(2,int(num**0.5)+1):
-              if num%i==0:
-                    print(num,end=' ')
-                    break
+import math
+n=4
+square=n**2
+cube=n**3
+square_root=math.sqrt(n)
+print(square,cube,square_root)
 
 OUTPUT:
-10 12 14 15 16 18 20 21 22 24 25 26 27 28 30
-
+16 64 2.0
