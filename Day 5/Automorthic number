@@ -1,0 +1,6 @@
+def is_automorthic_number(n):
+    return str(n**2).endswith(str(n))
+print(is_automorthic_number(7))
+
+OUTPUT:
+False
