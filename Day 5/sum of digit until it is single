@@ -1,0 +1,5 @@
+n=9845
+while n>9:
+  n=sum(int(digit)for i in str(n))
+  print(n)
+
