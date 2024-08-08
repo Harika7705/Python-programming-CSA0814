@@ -1,0 +1,6 @@
+from math import sqrt
+n=81
+print(sqrt(n)*sqrt(n)==n
+
+OUTPUT:
+True
